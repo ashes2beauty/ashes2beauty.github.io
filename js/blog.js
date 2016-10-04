@@ -1,4 +1,3 @@
-
 $(function() {
   var ref = new Firebase("https://comments-2b890.firebaseio.com/"),
     postRef = ref.child(slugify(window.location.pathname));
